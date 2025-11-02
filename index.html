@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>proyecto integrador</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="site-header" id="header" role="banner">
+            <div class="container header-inner">
+                        <a class="brand" href="#" aria-label="Inicio">
+                            <span class="brand-logo">
+                                <img src="data:image/png;base64,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" alt="Logo OVA"/>
+                            </span>
+                            <span class="brand-name">Plataforma</span>
+                        </a>
+                <nav class="main-nav" role="navigation" aria-label="Menú principal">
+                    <ul>
+                        <li><a href="#ovas">OVAs</a></li>
+                        <li><a href="#about">Acerca</a></li>
+                        <li><a class="cta" href="#contact">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menú">☰</button>
+            </div>
+        </header>
+
+        <!-- Hero principal -->
+        <main>
+            <section id="hero" class="hero">
+                <div class="container hero-inner">
+                    <div class="hero-content">
+                        <h1>Creando experiencias de aprendizaje OVA</h1>
+                        <p class="lead">Proyecto integrador Programacion Ambiente Web II </p>
+                        <div class="hero-ctas">
+                        </div>
+                    </div>
+                    <div class="hero-visual" aria-hidden="true">
+                        <div class="card-stack">
+                            <article class="ova-card sample">
+                                <div class="ova-thumb"></div>
+                                <div class="ova-info">
+                                    <h3>Analisis numerico</h3>
+                                    <p>Lección breve sobre ....</p>
+                                </div>
+                            </article>
+                            <article class="ova-card sample">
+                                <div class="ova-thumb"></div>
+                                <div class="ova-info">
+                                    <h3>Matematicas Discretas</h3>
+                                    <p>Lección breve sobre Operaciones entre conjuntos</p>
+                                </div>
+                            </article>
+                            <article class="ova-card sample -back">
+                                <div class="ova-thumb"></div>
+                                <div class="ova-info">
+                                    <h3>Costos y presupuestos</h3>
+                                    <p>Lección práctica sobre punto de equilibrio.</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Sección OVAs: tarjetas en grid -->
+            <section id="ovas" class="section section-ovas">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>OVAs</h2>
+                    </div>
+
+                    <div class="grid ova-grid">
+                        <article class="ova-card" tabindex="0" aria-labelledby="ova1-title">
+                            <div class="ova-thumb" aria-hidden="true"></div>
+                            <div class="ova-info">
+                                <h3 id="ova1-title">Ova: Operaciones entre conjuntos</h3>
+                                <p>Guía práctica sobre operaciones entre conjuntos.</p>
+                                <div class="card-actions">
+                                    <a class="btn btn-sm" href="#">Ver</a>
+ 
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="ova-card" tabindex="0" aria-labelledby="ova2-title">
+                            <div class="ova-thumb"></div>
+                            <div class="ova-info">
+                                <h3 id="ova2-title">Ova: Punto de equilibrio</h3>
+                                <p>Guía práctica sobre el punto de equilibrio.</p>
+                                <div class="card-actions">
+                                    <a class="btn btn-sm" href="#">Ver</a>
+                                    
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="ova-card" tabindex="0" aria-labelledby="ova3-title">
+                            <div class="ova-thumb"></div>
+                            <div class="ova-info">
+                                <h3 id="ova3-title">Ova: Metodo de biseccion</h3>
+                                <p>Guía práctica sobre el método de bisección.</p>
+                                <div class="card-actions">
+                                    <a class="btn btn-sm" href="#">Ver</a>
+                                    
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Footer -->
+        <footer class="site-footer" id="contact" role="contentinfo">
+            <div class="container footer-inner">
+                <div>
+                <br>
+                <nav aria-label="Enlaces de pie de página">
+                    <a href="#">Privacidad</a>
+                    <a href="#">Términos</a>
+                    <a href="#">Soporte</a>
+                </nav>
+            </div>
+        </footer>
+
+    </body>
+</html>
