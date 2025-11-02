@@ -103,3 +103,33 @@ img{max-width:100%;height:auto;display:block}
 .site-footer{border-top:1px solid rgba(16,16,24,0.04);padding:22px 0;background:transparent}
 .footer-inner{display:flex;justify-content:space-between;align-items:center}
 .site-footer a{color:var(--muted);text-decoration:none;margin-left:12px}
+
+.simulator-card{
+  max-width:940px;
+  margin:28px auto;
+  background: #ffffff;
+  border-radius:14px;
+  padding:20px;
+  box-shadow:var(--shadow-2);
+  border:1px solid rgba(124,58,237,0.06);
+}
+.sim-form{display:block}
+.sim-form .input{
+  width:100%;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid rgba(16,16,24,0.06);
+  background:linear-gradient(180deg, #fff, #fbfbff);
+  font-size:0.95rem;
+}
+.sim-form label{display:block;font-weight:600;color:var(--text);margin-bottom:6px}
+.sim-form .muted{font-weight:400}
+.sim-form .row{display:flex;gap:12px}
+.sim-form .row .col{flex:1}
+.result strong{display:block;margin-bottom:6px}
+.fake-result{color:var(--purple-600);font-weight:700}
+
+@media (max-width:640px){
+  .simulator-card{padding:16px;margin:18px}
+  .sim-form .row{flex-direction:column}
+}
